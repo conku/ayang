@@ -104,14 +104,15 @@ SDK
 | sign       | string  | 是       | 签名                                   |
 
 
-返回 TXT 成功
+返回 TXT 
+成功
 
 ```
 
 success
 
 ```
-
+失败
 ```
 
 fail
