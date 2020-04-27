@@ -15,7 +15,7 @@ ayang.io（ayang pay）支付系统
 | userid     | int     | 是       | 商户 ID                                                    |
 | subject    | string  | 否       | 订单标题                                                   |
 | order_sn   | string  | 是       | 订单号（唯一）列：20191118123424                           |
-| order_type | string  | 是       | 订单类型 支付宝：P909，微信：P902，云闪付：P904            |
+| order_type | string  | 是       | 订单类型 pdd,wepay,alipay            |
 | amount     | float64 | 是       | 订单的金额,必须 300.00 保留 2 位小数点                     |
 | notify_url | string  | 是       | 订单成功回调地址                                           |
 | return_url | string  | 是       | 订单成功返回地址                                           |
@@ -40,7 +40,13 @@ SDK
     "data":"code"
  }
  
+
+```
+
  URL
+```
+
+
  {
     "success": true, 
     "errorCode": 1,
