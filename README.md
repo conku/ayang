@@ -1,5 +1,5 @@
 # Ayang支付
-ayang.io（ayang pay）支付系统
+ayang.io（ayang pay）支付系统,对接文档说明
 
 ---
 
