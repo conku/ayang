@@ -21,8 +21,36 @@ ayang.io（ayang pay）支付系统
 | return_url | string  | 是       | 订单成功返回地址                                           |
 | sign       | string  | 是       | 签名MD5 请查看签名说明                                          |
 
+### 返回JSON 
 
+| 名称       | 类型    | 是否必须 | 描述                                                       |
+| ---------- | :------ | :------- | :--------------------------------------------------------- |
+| success    | bool    | 是       | 返回true,false                                           |
+| errorCode  | int     | 是       | 错误代码                                                  |
+| order_id   | string  | 是       | 订单ID                          |
+| data       | string  | 否       | SDK支付代码（SDK模式）            |
+| url        | string  | 否       | URL跳转代码，                     |
 
+SDK
+```
+{
+    "success": true, 
+    "errorCode": 1,
+    "order_id": 10000, 
+    "data":"code"
+ }
+ 
+ URL
+ {
+    "success": true, 
+    "errorCode": 1,
+    "order_id": 10000, 
+    "url": "https://github.com/conku/ayang"
+ }
+
+```
+
+---
 ### 订单号查询
 
 请求方式：GET
