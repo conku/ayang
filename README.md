@@ -61,7 +61,7 @@ SDK
 
 请求方式：GET
 
-调用地址：https://pay.ayang.io/order/{商户ID}/{订单号}/{md5}
+调用地址：http://pay.ayang.io/order/{商户ID}/{订单号}/{md5}
 
 请求方式：GET
 
