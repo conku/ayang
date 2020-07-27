@@ -1,12 +1,12 @@
-# Ayang支付
-ayang.io（ayang pay）支付系统,对接文档说明
+# ispay就付
+ispay.in支付系统,对接文档说明
 
 ---
 
 ### 订单提交
 
 
-调用地址：http://pay.ayang.io/v2/gateway
+调用地址：http://payment.ispay.in/v2/gateway
 
 请求方式：POST
 
@@ -61,7 +61,7 @@ SDK
 
 请求方式：GET
 
-调用地址：http://pay.ayang.io/order/{商户ID}/{订单号}/{md5}
+调用地址：http://payment.ispay.in/order/{商户ID}/{订单号}/{md5}
 
 请求方式：GET
 
