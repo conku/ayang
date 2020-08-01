@@ -8,7 +8,7 @@ ispay.in支付系统,对接文档说明
 
 调用地址：http://payment.ispay.in/v2/gateway
 
-请求方式：POST
+请求方式：POST DATA
 
 | 名称       | 类型    | 是否必须 | 描述                                                       |
 | ---------- | :------ | :------- | :--------------------------------------------------------- |
@@ -35,7 +35,7 @@ SDK
 ```
 {
     "success": true, 
-    "errorCode": 1,
+    "errorCode": 0,
     "order_id": 10000, 
     "data":"code"
  }
@@ -43,13 +43,13 @@ SDK
 
 ```
 
- URL
+ H5
 ```
 
 
  {
     "success": true, 
-    "errorCode": 1,
+    "errorCode": 0,
     "order_id": 10000, 
     "url": "https://github.com/conku/ayang"
  }
