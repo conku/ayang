@@ -37,7 +37,7 @@ SDK
     "success": true, 
     "errorCode": 0,
     "order_id": 10000, 
-    "data":"code"
+    "data":"SDK支付代码"
  }
  
 
@@ -51,7 +51,7 @@ SDK
     "success": true, 
     "errorCode": 0,
     "order_id": 10000, 
-    "url": "https://github.com/conku/ayang"
+    "url": "URL跳转连接"
  }
 
 ```
